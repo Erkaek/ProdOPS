@@ -1,5 +1,5 @@
-appname = example
-package = example
+appname = ProdOPS
+package = ProdOPS
 
 # Default goal
 .DEFAULT_GOAL := help

@@ -62,7 +62,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - GitHub actions updated
 - `pre-commit` config updated and applied
-- Example test improved
+- ProdOPS test improved
 
 ## [0.0.3] - 2022-09-15
 

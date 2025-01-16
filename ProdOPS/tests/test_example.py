@@ -1,14 +1,14 @@
 """
-Example Test
+ProdOPS Test
 """
 
 # Django
 from django.test import TestCase
 
 
-class TestExample(TestCase):
+class TestProdOPS(TestCase):
     """
-    TestExample
+    TestProdOPS
     """
 
     @classmethod
@@ -21,7 +21,7 @@ class TestExample(TestCase):
 
         super().setUpClass()
 
-    def test_example(self):
+    def test_ProdOPS(self):
         """
         Dummy test function
         :return:

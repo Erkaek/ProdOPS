@@ -6,4 +6,4 @@ from django.conf import settings
 # put your app settings here
 
 
-EXAMPLE_SETTING_ONE = getattr(settings, "EXAMPLE_SETTING_ONE", None)
+ProdOPS_SETTING_ONE = getattr(settings, "ProdOPS_SETTING_ONE", None)

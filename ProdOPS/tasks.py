@@ -11,9 +11,9 @@ logger = logging.getLogger(__name__)
 # Create your tasks here
 
 
-# Example Task
+# ProdOPS Task
 @shared_task
-def example_task():
-    """Example Task"""
+def ProdOPS_task():
+    """ProdOPS Task"""
 
     pass

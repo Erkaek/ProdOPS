@@ -5,12 +5,12 @@ requires = [
 ]
 
 [project]
-name = "aa-example-plugin"
-description = "Example Plugin for Alliance Auth (GitHub Version)"
+name = "prodops"
+description = "ProdOPS Plugin for Alliance Auth (GitHub Version)"
 readme = "README.md"
 keywords = [
     "allianceauth",
-    "example",
+    "ProdOPS",
 ]
 license = { file = "LICENSE" }
 authors = [
@@ -39,13 +39,13 @@ dynamic = [
 dependencies = [
     "allianceauth>=4.3.1,<5",
 ]
-urls.Changelog = "https://github.com/ppfeufer/aa-example-plugin/blob/master/CHANGELOG.md"
-urls."Issue / Bug Reports" = "https://github.com/ppfeufer/aa-example-plugin/issues"
+urls.Changelog = "https://github.com/ErkaEk/ProdOPS/blob/master/CHANGELOG.md"
+urls."Issue / Bug Reports" = "https://github.com/ErkaEk/ProdOPS/issues"
 
 [tool.hatch.version]
-path = "example/__init__.py"
+path = "ProdOPS/__init__.py"
 
 [tool.hatch.build]
 include = [
-    "/example",
+    "/ProdOPS",
 ]
